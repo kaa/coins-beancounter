@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  beancounter
+//
+//  Created by Joakim Beijar on 17.02.2018.
+//  Copyright © 2018 Joakim Beijar. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Availability.h>
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#endif /* PrefixHeader_pch */
